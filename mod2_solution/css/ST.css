@@ -27,7 +27,9 @@ h1{
 	float: left;
 	position: relative;
     width: 300px;
+    
     color: black;
+    text-transform: lowercase;
    
   
 }
@@ -38,8 +40,8 @@ h1{
 	top: 0;
 	right: 0;
     margin-bottom: 20px;
-    width: 30%;
-    font-size: 70px;
+    width: 40%;
+    /*font-size: 70px;*/
     font-family: Bellefair;
     
 
@@ -98,27 +100,26 @@ p{
 
 
 /*view for desktop*/
-@media only screen and (min-width:992px) {
-    p {
-       float: left;
-        width: 33.33%; }
+@media only screen and (min-width:992){
+    p{
+        float: left;
+        width: 34%;
+    }
 }
 
 /*view for tablet*/
-@media only screen and (min-width:768px) and (max-width:991px) {
-    p {
+ @media only screen and (max-width:991px) and (min-width:768px) {
+    p{
          float: left;
         width: 50%;  }
-    .lorem{
-        float: none;
-        width: 100%;
-    }        
+   
+          
     }
     
  
 
 /*view for mobile*/
-@media only screen and (max-width:767px) {
+@media only screen and (min-width:767px) {
     p {
           float: left;
         width:100%;

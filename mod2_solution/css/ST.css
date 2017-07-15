@@ -26,8 +26,8 @@ h1{
 	border-color: #222223;
 	float: left;
 	position: relative;
-    width: 300px;
-    
+    width: 30%;
+    /*min-width:30%;*/
     color: black;
     text-transform: lowercase;
    
@@ -41,7 +41,7 @@ h1{
 	right: 0;
     margin-bottom: 20px;
     width: 40%;
-    /*font-size: 70px;*/
+    font-size: 100px;
     font-family: Bellefair;
     
 
@@ -89,40 +89,47 @@ h1{
 p{
     margin-top: 20px;
 }
-.lorem{
-    margin-left:0 ;
-}
-/*.se{
+
+
+.se{
     width: 100%;
-}*/
+}
 
 
 
 
 /*view for desktop*/
 @media only screen and (min-width:992){
-    p{
+    .left{
         float: left;
-        width: 34%;
+        width: 33.33%;
     }
 }
 
 /*view for tablet*/
  @media only screen and (max-width:991px) and (min-width:768px) {
-    p{
+    .left{
          float: left;
-        width: 50%;  }
-   
+        width: 40%;  }
+        .popo{
+            /*float: none;*/
+            width: 84%;
+            clear: both;
+            min-height: 150px;
+          
+        }
+     
           
     }
     
  
 
 /*view for mobile*/
-@media only screen and (min-width:767px) {
-    p {
+@media only screen and (max-width:767px) {
+    .left{
           float: left;
-        width:100%;
+        width:80%;
+        margin-left:10%;
        
     } 
 
